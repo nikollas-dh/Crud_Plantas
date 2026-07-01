@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PlantsDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="plantas">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+    <Property Name="description" Type="nvarchar" MaxLength="255" />
+    <Property Name="formatoFolha" Type="int" />
+    <Property Name="pontaFolha" Type="int" />
+    <Property Name="tipoFlor" Type="int" />
+    <Property Name="tipoHaste" Type="int" />
+    <Property Name="tipoFruta" Type="int" />
+    <Property Name="waterDays" Type="nvarchar" MaxLength="255" />
+    <Property Name="fertilizationMonth" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="plantasUsuarios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="user_id" Type="int" />
+    <Property Name="plant_name" Type="nvarchar" MaxLength="255" />
+    <Property Name="description" Type="nvarchar" MaxLength="255" />
+    <Property Name="age" Type="int" />
+    <Property Name="formatoFolha" Type="int" />
+    <Property Name="pontaFolha" Type="int" />
+    <Property Name="tipoFlor" Type="int" />
+    <Property Name="tipoHaste" Type="int" />
+    <Property Name="tipoFruta" Type="int" />
+    <Property Name="creationDate" Type="datetime" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TformatoFolha">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="TpontaFolha">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="TtipoFlor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="TtipoFruta">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="TtipoHaste">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login" Type="nvarchar" MaxLength="255" />
+    <Property Name="password" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK_plantas_formatoFolha">
+    <End Role="TformatoFolha" Type="Self.TformatoFolha" Multiplicity="0..1" />
+    <End Role="plantas" Type="Self.plantas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TformatoFolha">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantas">
+        <PropertyRef Name="formatoFolha" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantas_pontaFolha">
+    <End Role="TpontaFolha" Type="Self.TpontaFolha" Multiplicity="0..1" />
+    <End Role="plantas" Type="Self.plantas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TpontaFolha">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantas">
+        <PropertyRef Name="pontaFolha" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantas_tipoFlor">
+    <End Role="TtipoFlor" Type="Self.TtipoFlor" Multiplicity="0..1" />
+    <End Role="plantas" Type="Self.plantas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TtipoFlor">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantas">
+        <PropertyRef Name="tipoFlor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantas_tipoFruta">
+    <End Role="TtipoFruta" Type="Self.TtipoFruta" Multiplicity="0..1" />
+    <End Role="plantas" Type="Self.plantas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TtipoFruta">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantas">
+        <PropertyRef Name="tipoFruta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantas_tipoHaste">
+    <End Role="TtipoHaste" Type="Self.TtipoHaste" Multiplicity="0..1" />
+    <End Role="plantas" Type="Self.plantas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TtipoHaste">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantas">
+        <PropertyRef Name="tipoHaste" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantasUsuarios_formatoFolha">
+    <End Role="TformatoFolha" Type="Self.TformatoFolha" Multiplicity="0..1" />
+    <End Role="plantasUsuarios" Type="Self.plantasUsuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TformatoFolha">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantasUsuarios">
+        <PropertyRef Name="formatoFolha" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantasUsuarios_pontaFolha">
+    <End Role="TpontaFolha" Type="Self.TpontaFolha" Multiplicity="0..1" />
+    <End Role="plantasUsuarios" Type="Self.plantasUsuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TpontaFolha">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantasUsuarios">
+        <PropertyRef Name="pontaFolha" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantasUsuarios_tipoFlor">
+    <End Role="TtipoFlor" Type="Self.TtipoFlor" Multiplicity="0..1" />
+    <End Role="plantasUsuarios" Type="Self.plantasUsuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TtipoFlor">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantasUsuarios">
+        <PropertyRef Name="tipoFlor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantasUsuarios_tipoFruta">
+    <End Role="TtipoFruta" Type="Self.TtipoFruta" Multiplicity="0..1" />
+    <End Role="plantasUsuarios" Type="Self.plantasUsuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TtipoFruta">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantasUsuarios">
+        <PropertyRef Name="tipoFruta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantasUsuarios_tipoHaste">
+    <End Role="TtipoHaste" Type="Self.TtipoHaste" Multiplicity="0..1" />
+    <End Role="plantasUsuarios" Type="Self.plantasUsuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TtipoHaste">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantasUsuarios">
+        <PropertyRef Name="tipoHaste" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_plantasUsuarios_usuarios1">
+    <End Role="usuarios" Type="Self.usuarios" Multiplicity="0..1" />
+    <End Role="plantasUsuarios" Type="Self.plantasUsuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="plantasUsuarios">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PlantsDatabaseModelStoreContainer">
+    <EntitySet Name="plantas" EntityType="Self.plantas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="plantasUsuarios" EntityType="Self.plantasUsuarios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TformatoFolha" EntityType="Self.TformatoFolha" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TpontaFolha" EntityType="Self.TpontaFolha" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TtipoFlor" EntityType="Self.TtipoFlor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TtipoFruta" EntityType="Self.TtipoFruta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TtipoHaste" EntityType="Self.TtipoHaste" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_plantas_formatoFolha" Association="Self.FK_plantas_formatoFolha">
+      <End Role="TformatoFolha" EntitySet="TformatoFolha" />
+      <End Role="plantas" EntitySet="plantas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantas_pontaFolha" Association="Self.FK_plantas_pontaFolha">
+      <End Role="TpontaFolha" EntitySet="TpontaFolha" />
+      <End Role="plantas" EntitySet="plantas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantas_tipoFlor" Association="Self.FK_plantas_tipoFlor">
+      <End Role="TtipoFlor" EntitySet="TtipoFlor" />
+      <End Role="plantas" EntitySet="plantas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantas_tipoFruta" Association="Self.FK_plantas_tipoFruta">
+      <End Role="TtipoFruta" EntitySet="TtipoFruta" />
+      <End Role="plantas" EntitySet="plantas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantas_tipoHaste" Association="Self.FK_plantas_tipoHaste">
+      <End Role="TtipoHaste" EntitySet="TtipoHaste" />
+      <End Role="plantas" EntitySet="plantas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantasUsuarios_formatoFolha" Association="Self.FK_plantasUsuarios_formatoFolha">
+      <End Role="TformatoFolha" EntitySet="TformatoFolha" />
+      <End Role="plantasUsuarios" EntitySet="plantasUsuarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantasUsuarios_pontaFolha" Association="Self.FK_plantasUsuarios_pontaFolha">
+      <End Role="TpontaFolha" EntitySet="TpontaFolha" />
+      <End Role="plantasUsuarios" EntitySet="plantasUsuarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantasUsuarios_tipoFlor" Association="Self.FK_plantasUsuarios_tipoFlor">
+      <End Role="TtipoFlor" EntitySet="TtipoFlor" />
+      <End Role="plantasUsuarios" EntitySet="plantasUsuarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantasUsuarios_tipoFruta" Association="Self.FK_plantasUsuarios_tipoFruta">
+      <End Role="TtipoFruta" EntitySet="TtipoFruta" />
+      <End Role="plantasUsuarios" EntitySet="plantasUsuarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantasUsuarios_tipoHaste" Association="Self.FK_plantasUsuarios_tipoHaste">
+      <End Role="TtipoHaste" EntitySet="TtipoHaste" />
+      <End Role="plantasUsuarios" EntitySet="plantasUsuarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_plantasUsuarios_usuarios1" Association="Self.FK_plantasUsuarios_usuarios1">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="plantasUsuarios" EntitySet="plantasUsuarios" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
