@@ -3,55 +3,55 @@
   "WorkspaceRootPath": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\mplants\\mplants\\modal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\modal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\mplants\\mplants\\myplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\myplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\mplants\\mplants\\plantaitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\plantaitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\explore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\explore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\explore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\explore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\mplants\\mplants\\plantaitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\plantaitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\mplants\\mplants\\modal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\modal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\myplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\myplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\myplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\myplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\explore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\explore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\mplants\\mplants\\modal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\plantaitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\plantaitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\plantaitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\plantaitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\modal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\modal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\mplants\\mplants\\domain\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\mplants\\domain\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{2B3C4CDB-6498-47AF-8F8B-37A23FFF8770}|MPlants\\MPlants.csproj|solutionrelative:mplants\\domain\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
@@ -70,53 +70,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Explore.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Explore.cs",
-              "RelativeDocumentMoniker": "MPlants\\Explore.cs",
-              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Explore.cs [Design]",
-              "RelativeToolTip": "MPlants\\Explore.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "PlantaItemControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\PlantaItemControl.cs",
+              "RelativeDocumentMoniker": "MPlants\\PlantaItemControl.cs",
+              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\PlantaItemControl.cs [Design]",
+              "RelativeToolTip": "MPlants\\PlantaItemControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T17:44:05.375Z",
+              "WhenOpened": "2026-07-01T16:49:58.314Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyPlants.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\MyPlants.cs",
-              "RelativeDocumentMoniker": "MPlants\\MyPlants.cs",
-              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\MyPlants.cs [Design]",
-              "RelativeToolTip": "MPlants\\MyPlants.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:01:34.405Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Modal.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "Modal.cs",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Modal.cs",
               "RelativeDocumentMoniker": "MPlants\\Modal.cs",
-              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Modal.cs [Design]",
-              "RelativeToolTip": "MPlants\\Modal.cs [Design]",
+              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Modal.cs",
+              "RelativeToolTip": "MPlants\\Modal.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:31:36.691Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-07-01T14:34:10.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PlantaItemControl.cs",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\PlantaItemControl.cs",
               "RelativeDocumentMoniker": "MPlants\\PlantaItemControl.cs",
               "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\PlantaItemControl.cs",
               "RelativeToolTip": "MPlants\\PlantaItemControl.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAtwBQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA7wBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T17:22:07.73Z",
               "EditorCaption": ""
@@ -124,18 +113,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Form1.cs",
-              "RelativeDocumentMoniker": "MPlants\\Form1.cs",
-              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Form1.cs [Design]",
-              "RelativeToolTip": "MPlants\\Form1.cs [Design]",
+              "Title": "MyPlants.cs",
+              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\MyPlants.cs",
+              "RelativeDocumentMoniker": "MPlants\\MyPlants.cs",
+              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\MyPlants.cs",
+              "RelativeToolTip": "MPlants\\MyPlants.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T17:08:35.212Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-30T17:54:47.946Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Form1.cs",
               "RelativeDocumentMoniker": "MPlants\\Form1.cs",
@@ -148,19 +138,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlantaItemControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\PlantaItemControl.cs",
-              "RelativeDocumentMoniker": "MPlants\\PlantaItemControl.cs",
-              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\PlantaItemControl.cs [Design]",
-              "RelativeToolTip": "MPlants\\PlantaItemControl.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Form1.cs",
+              "RelativeDocumentMoniker": "MPlants\\Form1.cs",
+              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Form1.cs [Design]",
+              "RelativeToolTip": "MPlants\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T16:49:58.314Z",
+              "WhenOpened": "2026-06-30T17:08:35.212Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Explore.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Explore.cs",
+              "RelativeDocumentMoniker": "MPlants\\Explore.cs",
+              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Explore.cs [Design]",
+              "RelativeToolTip": "MPlants\\Explore.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T17:44:05.375Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Explore.cs",
+              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Explore.cs",
+              "RelativeDocumentMoniker": "MPlants\\Explore.cs",
+              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Explore.cs",
+              "RelativeToolTip": "MPlants\\Explore.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAvwEIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T17:44:28.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Modal.cs",
+              "RelativeDocumentMoniker": "MPlants\\Modal.cs",
+              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Modal.cs [Design]",
+              "RelativeToolTip": "MPlants\\Modal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T13:10:04.419Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyPlants.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\MyPlants.cs",
+              "RelativeDocumentMoniker": "MPlants\\MyPlants.cs",
+              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\MyPlants.cs [Design]",
+              "RelativeToolTip": "MPlants\\MyPlants.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T15:01:34.405Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Parent.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Parent.cs",
               "RelativeDocumentMoniker": "MPlants\\Parent.cs",
@@ -198,45 +237,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MyPlants.cs",
-              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\MyPlants.cs",
-              "RelativeDocumentMoniker": "MPlants\\MyPlants.cs",
-              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\MyPlants.cs",
-              "RelativeToolTip": "MPlants\\MyPlants.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T17:54:47.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Explore.cs",
-              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Explore.cs",
-              "RelativeDocumentMoniker": "MPlants\\Explore.cs",
-              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Explore.cs",
-              "RelativeToolTip": "MPlants\\Explore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T17:44:28.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Modal.cs",
-              "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Modal.cs",
-              "RelativeDocumentMoniker": "MPlants\\Modal.cs",
-              "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Modal.cs",
-              "RelativeToolTip": "MPlants\\Modal.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwBEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:34:10.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Domain\\Model1.edmx",
@@ -244,8 +244,7 @@
               "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\MPlants\\MPlants\\Domain\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "MPlants\\Domain\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2026-07-01T14:52:42.45Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2026-07-01T14:52:42.45Z"
             },
             {
               "$type": "Document",

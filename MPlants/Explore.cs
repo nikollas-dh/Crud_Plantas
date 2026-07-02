@@ -224,5 +224,11 @@ namespace MPlants
         {
             preencherDataGrid(listaPlantas);
         }
+
+        private void label27_Click(object sender, EventArgs e)
+        {
+            PesquisaPorLetra(label27.Text);
+
+        }
     }
 }
